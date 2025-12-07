@@ -1,0 +1,24 @@
+Package: DnDice
+Type: Package
+Title: D&D Style Dice Rolling Tools
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Aaron", "Norris",
+      email = "aaronnorris@usf.edu",
+      role = c("aut", "cre")
+    )
+  )
+Description: Provides tools to parse and roll D&D-style dice expressions 
+    such as '2d6+3' or '1d20+5', create named rolls, and compute hit chance 
+    and expected damage for D&D-like systems.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat,
+    rmarkdown,
+    knitr
+VignetteBuilder: knitr
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3

@@ -1,0 +1,7 @@
+---
+title: "dndice: Dice Tools for D&D"
+output: rmarkdown::html_vignette
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
